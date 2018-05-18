@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif
+}
+
+.nav {
+    list-style-type: none;  /* Removes bullets */
+    overflow: hidden;       /* Adds the <br> at the end */
+}
+
+.nav li {
+    float: left;            /* An alternative for display: inline */
+}
+
+.nav li a {
+    display: block;         /* Allows any of the block to trigger the link */
+    padding: 8px;           /* Padding from the text to the outside, the "block" */
+}
